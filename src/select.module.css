@@ -61,7 +61,7 @@
   display: none;
   max-height: 15em;
   overflow-y: auto;
-  border: .1em solid #DCDAC6;
+  border: .1em solid #58A4BB;
   border-radius: .25em;
   width: 100%;
   left: -.1em;
@@ -81,7 +81,8 @@
 
 .option:hover {
   background-color: #58A4BB;;
-  color: #DCDAC6;
+  color: #242424;
+  font-weight: bold;
 }
 
 .option.disabled {
