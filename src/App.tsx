@@ -3,6 +3,7 @@ import './App.css';
 import Select from './Select';
 
 const options = [
+  {label: "SELECT A SIZE", value: "SELECT A SIZE"},
   {label: "XS", value: "XS"},
   {label: "S", value: "S"},
   {label: "M", value: "M"},
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <div>
-      <h1>Select</h1>
+      <h1>Size</h1>
       <Select options={options} value={value} onChange={o => setValue(o)} />
     </div>
   )

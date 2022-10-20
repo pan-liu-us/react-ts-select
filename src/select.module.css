@@ -8,6 +8,7 @@
   align-items: center;
   gap: .5em;
   outline: none;
+  margin: auto;
 }
 
 .container:focus {
@@ -19,6 +20,7 @@
   display: flex;
   gap: .5em;
   flex-wrap: wrap;
+  margin-left: .5em;
 }
 
 .delete {
@@ -52,6 +54,7 @@
 
 .options {
   position: absolute;
+  text-align: left;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -79,4 +82,9 @@
 .option:hover {
   background-color: #58A4BB;;
   color: #DCDAC6;
+}
+
+.option.disabled {
+  pointer-events: none;
+  opacity: 0.6;
 }
