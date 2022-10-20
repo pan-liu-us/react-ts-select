@@ -1,0 +1,82 @@
+.container {
+  position: relative;
+  width: 20em;
+  min-height: 2em;
+  border: .1em solid #DCDAC6;
+  border-radius: .25em;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  outline: none;
+}
+
+.container:focus {
+  border-color: #58A4BB;
+}
+
+.value {
+  flex-grow: 1;
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
+}
+
+.delete {
+  color: #DCDAC6;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.delete:focus,
+.delete:hover {
+  color: #E84324
+}
+
+.divider {
+  background-color: #DCDAC6;
+  align-self: stretch;
+  width: .1em;
+}
+
+.caret {
+  margin-right: .5em;
+  color: #DCDAC6;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.caret:focus,
+.caret:hover {
+  color: #58A4BB;
+}
+
+.options {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  max-height: 15em;
+  overflow-y: auto;
+  border: .1em solid #DCDAC6;
+  border-radius: .25em;
+  width: 100%;
+  left: -.1em;
+  top: calc(100% + .25em);
+  background-color: #242424;
+  z-index: 100;
+}
+
+.options.show {
+  display: block;
+}
+
+.option {
+  padding: .25em .5em;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #58A4BB;;
+  color: #DCDAC6;
+}
