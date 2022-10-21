@@ -60,7 +60,7 @@
   padding: 0;
   list-style: none;
   display: none;
-  max-height: 12em;
+  max-height: 10em;
   overflow-y: auto;
   border: .1em solid #58A4BB;
   border-radius: .25em;

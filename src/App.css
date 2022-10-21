@@ -1,4 +1,19 @@
-#root {
+@media screen and (min-width: 800px) {
+  .app {
+    display: flex;
+    gap: 1em;
+  }
+
+  .size {
+    flex: 1;
+  }
+
+  .skill {
+    flex: 1;
+  }
+}
+
+  #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

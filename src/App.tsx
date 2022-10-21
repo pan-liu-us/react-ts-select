@@ -32,21 +32,25 @@ function App() {
   const [multiValue, setMultiValue] = useState<SelectOption[]>([]);
 
   return (
-    <div>
-      <h1>Size</h1>
-      <Select
-        options={options}
-        value={singleValue}
-        onChange={(o) => setSingleValue(o)}
-      />
+    <div className="app">
+      <div className="size">
+        <h1>Size</h1>
+        <Select
+          options={options}
+          value={singleValue}
+          onChange={(o) => setSingleValue(o)}
+        />
+      </div>
       <div style={{ height: "12em" }} />
-      <h1>Skills</h1>
-      <Select
-        multiple
-        options={skills}
-        value={multiValue}
-        onChange={(o) => setMultiValue(o)}
-      />
+      <div className="skill">
+        <h1>Skills</h1>
+        <Select
+          multiple
+          options={skills}
+          value={multiValue}
+          onChange={(o) => setMultiValue(o)}
+        />
+      </div>
     </div>
   );
 }
