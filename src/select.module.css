@@ -59,7 +59,7 @@
   padding: 0;
   list-style: none;
   display: none;
-  max-height: 15em;
+  max-height: 12em;
   overflow-y: auto;
   border: .1em solid #58A4BB;
   border-radius: .25em;
@@ -89,3 +89,24 @@
   pointer-events: none;
   opacity: 0.6;
 }
+
+.option-badge {
+  color: #DCDAC6;
+  display: flex;
+  align-items: center;
+  border: .05em solid #DCDAC6;
+  border-radius: .25em;
+  padding: .15em .25em;
+  gap: .25em;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+
+.option-badge:hover,
+.option-badge:focus {
+  color:hsl(0, 100%, 50%);
+  background-color: hsl(0, 100%, 90%);
+  border-color: hsl(0, 100%, 50%);
+}
+
