@@ -18,7 +18,6 @@ const skills = [
   { label: "CSS", value: "CSS" },
   { label: "React", value: "React" },
   { label: "Node", value: "Node" },
-  { label: "RESTful API", value: "RESTful API" },
   { label: "AWS", value: "AWS" },
   { label: "MongoDB", value: "MongoDB" },
   { label: "MySQL", value: "MySQL" },
